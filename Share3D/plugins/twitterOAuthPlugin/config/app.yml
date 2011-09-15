@@ -1,0 +1,5 @@
+all:
+  twitter_consumer_key: xxx
+  twitter_consumer_secret: xxx
+  twitter_access_token: xxx
+  twitter_access_token_secret: xxx

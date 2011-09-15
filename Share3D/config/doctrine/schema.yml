@@ -1,0 +1,16 @@
+Client:
+  columns:
+    name: string(255)
+    username: string(255)
+    password: string(255)
+
+Store:
+  attributes:
+    export: tables
+  columns:
+    name: string(255)
+    description: string(500)
+    client_id: integer
+  relations:
+    Client:
+     foreignAlias: Stores
