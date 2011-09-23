@@ -18,3 +18,8 @@ default:
 
   has_layout:     true
   layout:         layout
+
+  all:
+  stylesheets: [jquery-ui-1.8.7.custom.css,prettyPhoto.css,styles.css]
+  javascripts: [jquery-1.4.4.min.js, jquery-ui-1.8.7.custom.min.js,swfobject.js,jquery.prettyPhoto.js,Three.js,RequestAnimationFrame.js,Stats.js,helvetiker_regular.typeface.js]
+

@@ -1,0 +1,28 @@
+Sep 15 13:50:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /home with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 15 13:50:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 13:50:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 13:50:12 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 15 13:50:12 symfony [info] {sfPHPView} Render "C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\Share3D\apps\frontend\modules/home/templates/indexSuccess.php"
+Sep 15 13:50:12 symfony [info] {sfPHPView} Decorate content with "C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\Share3D\apps\frontend\templates/layout.php"
+Sep 15 13:50:12 symfony [info] {sfPHPView} Render "C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\Share3D\apps\frontend\templates/layout.php"
+Sep 15 13:50:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 13:50:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 13:50:12 symfony [info] {sfWebDebugLogger} Configuration 420.32 ms (9)
+Sep 15 13:50:12 symfony [info] {sfWebDebugLogger} Factories 415.06 ms (1)
+Sep 15 13:50:12 symfony [info] {sfWebDebugLogger} Action "home/index" 0.34 ms (1)
+Sep 15 13:50:12 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 97.82 ms (1)
+Sep 15 13:50:12 symfony [info] {sfWebResponse} Send content (29534 o)
+Sep 15 13:52:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /home with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 15 13:52:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 13:52:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 13:52:51 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 15 13:52:51 symfony [info] {sfPHPView} Render "C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\Share3D\apps\frontend\modules/home/templates/indexSuccess.php"
+Sep 15 13:52:51 symfony [info] {sfPHPView} Decorate content with "C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\Share3D\apps\frontend\templates/layout.php"
+Sep 15 13:52:51 symfony [info] {sfPHPView} Render "C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\Share3D\apps\frontend\templates/layout.php"
+Sep 15 13:52:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 13:52:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 13:52:51 symfony [info] {sfWebDebugLogger} Configuration 413.15 ms (9)
+Sep 15 13:52:51 symfony [info] {sfWebDebugLogger} Factories 273.36 ms (1)
+Sep 15 13:52:51 symfony [info] {sfWebDebugLogger} Action "home/index" 0.38 ms (1)
+Sep 15 13:52:51 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 85.16 ms (1)
+Sep 15 13:52:51 symfony [info] {sfWebResponse} Send content (29566 o)

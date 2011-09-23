@@ -1,0 +1,10 @@
+default:
+  metas:
+    title:        Share3D
+    #description:  symfony project
+    keywords:     share3d
+    #language:     en
+    #robots:       no-index, no-follow
+
+  has_layout: true
+  layout:     layout_home
